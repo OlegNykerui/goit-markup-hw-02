@@ -22,17 +22,18 @@ body{
 
                /* LOGO */
 .logo-web{
-    color: var(--accent-color);
+color: var(--accent-color);
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
+
+
 }
 
 
-.logo{ color: var(--logo-title-color);
+.logo{ color:var(--logo-title-color);
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
@@ -41,6 +42,17 @@ letter-spacing: 0.03em;
 text-decoration:none ;
 }
 
+.logo-footer {
+font-family: 'Raleway';  
+color: var(--white-color);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.93;
+letter-spacing: 0.03em;
+text-decoration: none;
+
+
+}
 
 /* -------------utulities------------- */
 .link{
@@ -70,7 +82,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
-/* ховер */
+/* ---------ховер---------- */
 .link:hover,
 .link:focus {
  color: var(--accent-color);
@@ -145,21 +157,24 @@ letter-spacing: 0.03em;
 /* Команда */
 .team{
     background-color: var(--section-background-color);
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-
-text-align: center;
-letter-spacing: 0.03em;
+    
 }
 
 .team-title{
-    color: var(--title-text-color);
+color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
 
 }
 
 .team-text{ 
-
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
     
 
@@ -176,12 +191,12 @@ letter-spacing: 0.03em;
   }    
   .address-footer  {
       color: var(--white-color);
-    text-decoration: none;
+  
   }
 
   .footer-contacts{
       color: var(--address-color);
-      text-decoration: none;
+     
   }
       
 
@@ -197,8 +212,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 cursor: pointer;
-
-text-align: center;
 letter-spacing: 0.03em;
 
 
@@ -219,7 +232,7 @@ letter-spacing: 0.03em;
     font-size: 18px;
     line-height: 2.0;  
     letter-spacing: 0.06em;
-    text-decoration: none;
+    
  }
 
  .work-text{
@@ -228,8 +241,7 @@ letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    text-decoration: none;
-
+   
  }
 
 
